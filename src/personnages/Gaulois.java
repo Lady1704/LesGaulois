@@ -35,7 +35,7 @@ public class Gaulois {
 		+ ", effetPotion=" + effetPotion + "]";
 	}
 	public static void main(String[] args) {
-		Gaulois asterix = new Gaulois("Astérix",8, 1);
+		Gaulois asterix = new Gaulois("Astérix",8);
 		Romain romain = new Romain("Minus", 4);
 		System.out.println(asterix);
 		System.out.println(asterix.prendreParole());
